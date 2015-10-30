@@ -9,9 +9,10 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
-class MainActivity extends AppCompatActivity
+public class MainActivity extends AppCompatActivity
 {
 
     @Override
@@ -24,9 +25,9 @@ class MainActivity extends AppCompatActivity
 
         final TextView tweedeTextView = (TextView) findViewById(R.id.textView);
 
-        Button imageButton2 = (Button) findViewById(R.id.imageButton2);
-        Button imageButton = (Button) findViewById(R.id.imageButton);
-        Button imageButton3 = (Button) findViewById(R.id.imageButton3);
+        ImageButton imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
+        ImageButton imageButton = (ImageButton) findViewById(R.id.imageButton);
+        ImageButton imageButton3 = (ImageButton) findViewById(R.id.imageButton3);
 
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
