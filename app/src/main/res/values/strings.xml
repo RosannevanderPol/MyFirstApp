@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
     <string name="action_settings">Settings</string>
+    <string name="schaap">Yes that\'s correct!</string>
+    <string name="koe">No it\'s not.</string>
+    <string name="varken">No it\'s not.</string>
+    <string name="tekstview">Which animal says "Bèèèèè"?</string>
 </resources>
